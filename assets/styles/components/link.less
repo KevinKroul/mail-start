@@ -1,0 +1,32 @@
+.link {
+    color: @basic;
+    text-decoration: none;
+
+    &._top {
+        text-decoration: none;
+
+
+        &:hover {
+            color: @top;
+            text-decoration: none;
+        }
+    }
+
+    &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+        text-decoration-color: @basic;
+    }
+
+    &._topic {
+        color: @black;
+        font-weight: bold;
+        font-size: @size-s;
+
+        &:hover {
+            text-decoration-color: @black;
+        }
+    }
+
+
+}
