@@ -1,0 +1,41 @@
+.advert {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    padding-left: 12px;
+    width: 312px;
+    height: 300px;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+
+&:hover &__title {
+    text-decoration: underline;
+}
+
+
+&__image {
+    width: 300px;
+    height: 169px;
+    box-sizing: border-box;
+
+}
+
+&__title {
+    margin-top: 27px;
+    margin-left: 20px;
+    font-size: @size-s;
+    color: @basic;
+    font-weight: bold;
+}
+
+&__text {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: @size-s;
+}
+
+}

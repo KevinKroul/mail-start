@@ -1,0 +1,42 @@
+.games {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-top: 25px;
+    padding-left: 12px;
+    width: 312px;
+
+
+&__list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-bottom: 8px;
+
+
+}
+
+&__list-item {
+    margin-right: 20px;
+
+    &:first-child {
+        font-weight: bold;
+    }
+}
+
+&__image {
+    width: 146px;
+    height: 144px;
+
+    &._first {
+        background-image: url(https://r.mradx.net/img/FC/F8EAC4.jpg);
+    }
+
+    &._second {
+        margin-left: 6px;
+        background-image: url(https://r.mradx.net/img/FC/F8EAC4.jpg);
+    }
+}
+
+}
